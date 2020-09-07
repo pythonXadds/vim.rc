@@ -58,10 +58,6 @@ filetype plugin indent on    " required
 " Always wrap long lines:
 set wrap
 
-if has('gui_running')
-  set guioptions-=T  " no toolbar
-  colorscheme elflord
-endif
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
@@ -176,13 +172,14 @@ if $COLORTERM == 'gnome-terminal'
     set t_Co=256
 endif
 
-try
-    colorscheme desert
-catch
-endtry
+if has('gui_running')
+  set guioptions-=T  " no toolbar
+syntax enable
+set background=light
+colorscheme solarized 
 
-set background=dark
 
+endif
 " Set extra options when running in GUI mode
 if has("gui_running")
     set guioptions-=T
@@ -419,4 +416,4 @@ function! VisualSelection(direction, extra_filter) range
     let @" = l:saved_reg
 endfunction
 
-
+ set number 
