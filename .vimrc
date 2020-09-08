@@ -21,6 +21,22 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'JamshedVesuna/vim-markdown-preview'
 
+Plugin 'turbio/bracey.vim'
+
+Plugin 'dracula/vim'
+
+Plugin 'kannokanno/previm'
+
+Plugin 'wincent/ferret'
+
+Plugin 'kamykn/spelunker.vim'
+
+Plugin 'othree/xml.vim'
+
+
+Plugin 'alvan/vim-closetag'
+
+
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
@@ -174,9 +190,10 @@ endif
 
 if has('gui_running')
   set guioptions-=T  " no toolbar
+
+  
 syntax enable
-set background=light
-colorscheme solarized 
+colorscheme dracula
 
 
 endif
