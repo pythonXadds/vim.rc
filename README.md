@@ -24,6 +24,9 @@ Set up Vundle:
 Launch vim and run :PluginInstall
 
 
+To get the two themes working, create a *.vim* folder and a Folder called: *colors* then copy any themes you want into the folder.
+
+
 
 
 
