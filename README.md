@@ -13,7 +13,7 @@ The plugins includud within this Vimrc are:
 * Plugin 'kamykn/spelunker.vim'
 * Plugin 'othree/xml.vim'
 
-VundleVim can be got here: 
+VundleVim can be got here: `https://github.com/VundleVim/Vundle.vim`
 
 Set up Vundle:
 
