@@ -52,6 +52,43 @@ Plugin 'tpope/vim-fugitive'
 
 Plugin 'junegunn/fzf'
 
+Plugin 'vim-airline/vim-airline'
+
+Plugin 'vim-airline/vim-airline-themes'
+
+Plugin 'scrooloose/syntastic'
+
+Plugin 'valloric/youcompleteme'
+
+Plugin 'mattn/emmet-vim'
+
+Plugin 'plasticboy/vim-markdown'
+
+Plugin 'suan/vim-instant-markdown'
+
+Plugin 'honza/vim-snippets'
+
+Plugin 'godlygeek/tabular'
+
+Plugin 'editorconfig/editorconfig-vim'
+
+Plugin 'rafi/awesome-vim-colorschemes'
+
+Plugin '907th/vim-auto-save'
+
+Plugin 'metakirby5/codi.vim'
+
+
+Plugin 'honza/writer.vim'
+
+Plugin 'fedorenchik/vimcalc3'
+
+Plugin 'itchyny/calendar.vim'
+
+Plugin 'kdheepak/lazygit.vim'     
+
+
+"let g:airline_theme='<>'
 
 
 " The following are examples of different formats supported.
@@ -91,7 +128,7 @@ filetype plugin indent on    " required
 " Always wrap long lines:
 set wrap
 
-colorscheme default
+colorscheme dracula
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " => General
@@ -451,4 +488,8 @@ function! VisualSelection(direction, extra_filter) range
     let @" = l:saved_reg
 endfunction
 
- set number 
+ set number
+
+
+
+  
