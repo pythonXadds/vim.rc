@@ -38,8 +38,20 @@ Plugin 'kamykn/spelunker.vim'
 
 Plugin 'othree/xml.vim'
 
-
 Plugin 'alvan/vim-closetag'
+
+Plugin 'aperezdc/vim-template'
+
+Plugin 'vimwiki/vimwiki'
+
+Plugin  'mhinz/vim-startify'
+
+Plugin 'preservim/nerdtree'
+
+Plugin 'tpope/vim-fugitive'
+
+Plugin 'junegunn/fzf'
+
 
 
 " The following are examples of different formats supported.
@@ -79,8 +91,9 @@ filetype plugin indent on    " required
 " Always wrap long lines:
 set wrap
 
-
+colorscheme default
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Sets how many lines of history VIM has to remember
@@ -198,7 +211,7 @@ if has('gui_running')
 
   
 syntax enable
-colorscheme dracula
+colorscheme default
 
 
 endif
