@@ -28,7 +28,13 @@ To get the two themes working, create a *.vim* folder and a Folder called: *colo
 
 
 
+Note: I also install **cream** which makes gvim very much easier, and to be honest, sometimes one wants to use a mouse!
 
+You can install it on Debian/Ubuntu by typing into a terminal [sudo apt install cream] 
+
+its website is: http://cream.sourceforge.net/home.html
+
+thought it's not updated much these days. i'd love to fork it and perhaps re-awaken this project.
 
 
 
